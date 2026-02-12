@@ -2,8 +2,8 @@
 
 Signal-based journaling that evolves into behavioral infrastructure.
 
-Echos of Mind is built on one principle:
-**optimize signal precision, not engagement.**
+Echos of Mind is built on a simple principle:
+optimize signal precision, not engagement.
 
 No streak pressure.  
 No engagement engineering.  
@@ -11,24 +11,41 @@ No ads.
 
 ---
 
-## What Exists Today
+## What This Repository Contains
 
-- Deterministic behavioral signal engine  
-- Rolling window pattern detection (24h / 7d / 30d)  
-- Cooldown + dedup enforcement  
-- Production-ready backend blueprint  
+This public repository outlines the product direction, architecture, and modeling philosophy behind Echos of Mind.
 
-Supporting repositories:
-
-- `behavioral-signal-engine`
-- `production-backend-blueprint`
+- The deterministic signal core is public-facing.
+- Adaptive calibration layers remain proprietary and evolve per-user over time.
 
 ---
 
-## What We're Building
+## What Exists Today
+
+- Deterministic behavioral signal engine
+- Rolling window pattern detection (24h / 7d / 30d)
+- Cooldown and dedup enforcement
+- Production-ready backend architecture blueprint
+
+Related repositories:
+
+- behavioral-signal-engine
+- production-backend-blueprint
+
+---
+
+## What We Are Building
 
 Echos of Mind begins as structured journaling.
-It evolves into a behavioral operating system.
+
+Over time, it evolves into a behavioral modeling system where:
+
+- Baselines adapt per user
+- Signal fatigue is reduced dynamically
+- Detection sensitivity refines longitudinally
+- Insight density improves without increasing engagement pressure
+
+Long-term direction: behavioral infrastructure built on deterministic foundations.
 
 See:
 
@@ -36,27 +53,43 @@ See:
 - ARCHITECTURE.md
 - ROADMAP.md
 - METRICS.md
+- SECURITY.md
+- PRIVACY.md
 
 ---
 
-## Monetization Direction
+## Monetization Philosophy
 
-Revenue aligns with depth of insight:
-- Premium adaptive calibration layer
+Revenue must align with depth of insight, not emotional exploitation.
+
+Future models may include:
+
+- Premium adaptive calibration
 - Longitudinal behavioral reports
 - Institutional behavioral infrastructure (long-term)
 
-No ads. No emotional exploitation.
+Echos of Mind will not use ads or engagement manipulation as revenue mechanisms.
 
 ---
 
-## Status
+## Early-Stage Metrics Target
 
-Early-stage, founder-led build.
-Target: 1000 real active users within 18 months (defined in METRICS.md).
+Goal: 1000 real active users within 18 months.
+
+Active user definition:
+≥3 meaningful entries per month sustained ≥3 months.
+
+See METRICS.md for detailed definitions.
 
 ---
 
-## Philosophy
+## Core Philosophy
 
 Clarity compounds when behavior is structured over time.
+
+Echos of Mind prioritizes:
+
+- Deterministic modeling before AI layering
+- Privacy-first data handling
+- Transparent architecture
+- Long-term behavioral signal stability
