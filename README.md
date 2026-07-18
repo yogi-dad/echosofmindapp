@@ -37,12 +37,3 @@ Revenue has to track with depth of insight, not emotional exploitation. Future m
 
 Clarity compounds when behavior gets structured over time. That means deterministic modeling before any AI layering, privacy-first data handling by default, an architecture people can actually audit, and long-term signal stability over short-term novelty.
 
----
-
-## About section (GitHub sidebar, 350 char limit)
-
-A behavioral mirror, not a journal. Deterministic pattern detection on user signals, privacy-first, no engagement mechanics. Built by a software engineer with a psychology background.
-
-## Suggested topics/tags
-
-`typescript` `nestjs` `pattern-detection` `privacy-first` `mental-health-tech` `founder-led`
