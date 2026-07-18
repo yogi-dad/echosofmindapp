@@ -1,5 +1,7 @@
 # Echos of Mind
 
+[echosofmind.com](https://echosofmind.com)
+
 Echos of Mind starts as structured capture and turns into something closer to a behavioral mirror: a system that notices what repeats in someone's signals over time, instead of just logging them.
 
 No streaks. No engagement mechanics. No ads.
