@@ -1,95 +1,48 @@
 # Echos of Mind
 
-Signal-based journaling that evolves into behavioral infrastructure.
+Echos of Mind starts as structured capture and turns into something closer to a behavioral mirror: a system that notices what repeats in someone's signals over time, instead of just logging them.
 
-Echos of Mind is built on a simple principle:
-optimize signal precision, not engagement.
+No streaks. No engagement mechanics. No ads.
 
-No streak pressure.  
-No engagement engineering.  
-No ads.
+## What's in this repository
 
----
+This repo covers the product direction, architecture, and modeling philosophy behind Echos of Mind. The deterministic signal core is public. The adaptive calibration layer that personalizes per user stays proprietary and evolves separately.
 
-## What This Repository Contains
-
-This public repository outlines the product direction, architecture, and modeling philosophy behind Echos of Mind.
-
-- The deterministic signal core is public-facing.
-- Adaptive calibration layers remain proprietary and evolve per-user over time.
-
----
-
-## What Exists Today
+## What exists today
 
 - Deterministic behavioral signal engine
 - Rolling window pattern detection (24h / 7d / 30d)
-- Cooldown and dedup enforcement
+- Cooldown and dedup enforcement so the same signal doesn't get flagged twice
 - Production-ready backend architecture blueprint
 
-Related repositories:
+Related repositories: `behavioral-signal-engine`, `production-backend-blueprint`
 
-- behavioral-signal-engine
-- production-backend-blueprint
+## Where this is going
 
----
+Echos of Mind begins as structured journaling. Over time it becomes a system where baselines adapt per user, signal fatigue gets reduced, detection sensitivity refines the longer someone uses it, and insight gets deeper without asking for more input.
 
-## What We Are Building
+Long term: behavioral infrastructure built on deterministic foundations, not black-box inference.
 
-Echos of Mind begins as structured journaling.
+See `VISION.md`, `ARCHITECTURE.md`, `ROADMAP.md`, `METRICS.md`, `SECURITY.md`, `PRIVACY.md` for the detail behind each of these.
 
-Over time, it evolves into a behavioral modeling system where:
+## Revenue
 
-- Baselines adapt per user
-- Signal fatigue is reduced dynamically
-- Detection sensitivity refines longitudinally
-- Insight density improves without increasing engagement pressure
+Revenue has to track with depth of insight, not emotional exploitation. Future models may include premium adaptive calibration, longitudinal behavioral reports, and institutional behavioral infrastructure further out. No ads, no engagement manipulation, ever.
 
-Long-term direction: behavioral infrastructure built on deterministic foundations.
+## Early-stage target
 
-See:
+1,000 real active users within 18 months. Active is defined as three or more meaningful entries a month, sustained for three months or longer. Full definition in `METRICS.md`.
 
-- VISION.md
-- ARCHITECTURE.md
-- ROADMAP.md
-- METRICS.md
-- SECURITY.md
-- PRIVACY.md
+## Core philosophy
+
+Clarity compounds when behavior gets structured over time. That means deterministic modeling before any AI layering, privacy-first data handling by default, an architecture people can actually audit, and long-term signal stability over short-term novelty.
 
 ---
 
-## Monetization Philosophy
+## About section (GitHub sidebar, 350 char limit)
 
-Revenue must align with depth of insight, not emotional exploitation.
+A behavioral mirror, not a journal. Deterministic pattern detection on user signals, privacy-first, no engagement mechanics. Built by a software engineer with a psychology background.
 
-Future models may include:
+## Suggested topics/tags
 
-- Premium adaptive calibration
-- Longitudinal behavioral reports
-- Institutional behavioral infrastructure (long-term)
-
-Echos of Mind will not use ads or engagement manipulation as revenue mechanisms.
-
----
-
-## Early-Stage Metrics Target
-
-Goal: 1000 real active users within 18 months.
-
-Active user definition:
-≥3 meaningful entries per month sustained ≥3 months.
-
-See METRICS.md for detailed definitions.
-
----
-
-## Core Philosophy
-
-Clarity compounds when behavior is structured over time.
-
-Echos of Mind prioritizes:
-
-- Deterministic modeling before AI layering
-- Privacy-first data handling
-- Transparent architecture
-- Long-term behavioral signal stability
+`typescript` `nestjs` `pattern-detection` `privacy-first` `mental-health-tech` `founder-led`
